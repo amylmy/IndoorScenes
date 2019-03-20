@@ -1,0 +1,10 @@
+airport_terminal
+bedroom
+bookstore
+classroom
+computer_room
+corridor
+living_room
+office
+shopping_mall-indoor
+restaurant
