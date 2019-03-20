@@ -1,4 +1,4 @@
-# Indoor Scenes.
+# Indoor Scenes
 
 There are 160 categories of indoor scenes in **Places** and 67 categories in **MIT67** in total.
 
