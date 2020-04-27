@@ -1,4 +1,4 @@
-# Indoor Scenes
+## Indoor Scenes
 
 There are 160 categories of indoor scenes in **Places** and 67 categories in **MIT67** in total.
 
@@ -9,3 +9,16 @@ The two scene-centric datasets have 57 categories in common.
 In this repository, files with same number in their names indicate overlapping categories contained by both **MIT67** and **Places**. Such as [names_mit_10.txt](https://github.com/amylmy/IndoorScenes-UnsupervidedRepresentationLearning/blob/master/names_mit_10.txt) and [names_places_10.txt](https://github.com/amylmy/IndoorScenes-UnsupervidedRepresentationLearning/blob/master/names_places_10.txt) contain same 10 categories of indoor scenes. The same for [names_mit_35.txt](https://github.com/amylmy/IndoorScenes-UnsupervidedRepresentationLearning/blob/master/names_mit_35.txt) and [names_places_35.txt](https://github.com/amylmy/IndoorScenes-UnsupervidedRepresentationLearning/blob/master/names_places_35.txt), etc. 
 
 Other details and data will be updated in the future.
+
+
+## Others
+
+### Google Places API
+- https://developers.google.com/places/supported_types
+
+### Apple Indoor Map Data Format
+- https://register.apple.com/resources/imdf/Categories/#venue
+- Venue Types
+  - Airport
+  - Shopping Center
+  - Train Station
