@@ -22,3 +22,14 @@ Other details and data will be updated in the future.
   - Airport
   - Shopping Center
   - Train Station
+
+### Floorplan
+- Dataset
+  - CubiCasa5k: https://github.com/CubiCasa/CubiCasa5k.git
+  
+  CubiCasa5K is a large-scale floorplan image dataset containing 5000 samples annotated into over 80 floorplan object categories. The dataset annotations are performed in a dense and versatile manner by using polygons for separating the different objects. 
+  
+- Papers
+  - CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis
+  - Parsing floor plan images
+  - Deep floor plan recognition using a multi-task network with room-boundary-guided attention
