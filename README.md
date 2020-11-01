@@ -33,3 +33,7 @@ Other details and data will be updated in the future.
   - CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis
   - Parsing floor plan images
   - Deep floor plan recognition using a multi-task network with room-boundary-guided attention
+
+
+### Indoor Structure
+- 2015 | ICCV | Structured Indoor Modeling | [[paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Ikehata_Structured_Indoor_Modeling_ICCV_2015_paper.html)] [[project](https://www2.cs.sfu.ca/~furukawa/sim/)]
