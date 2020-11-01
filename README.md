@@ -23,17 +23,19 @@ Other details and data will be updated in the future.
   - Shopping Center
   - Train Station
 
-### Floorplan
+### Floorplan (2D)
 
 - 2019 | ICCV | Deep floor plan recognition using a multi-task network with room-boundary-guided attention | [[paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zeng_Deep_Floor_Plan_Recognition_Using_a_Multi-Task_Network_With_Room-Boundary-Guided_ICCV_2019_paper.pdf)] [[project](https://github.com/zlzeng/DeepFloorplan)]
 - 2019 | CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis | [[paper](https://arxiv.org/abs/1904.01920v1)] [[project](https://github.com/CubiCasa/CubiCasa5k)]
   - CubiCasa5K is a large-scale floorplan image dataset containing 5000 samples annotated into over 80 floorplan object categories. The dataset annotations are performed in a dense and versatile manner by using polygons for separating the different objects.
+- 2017 | ICCV | Raster-to-Vector: Revisiting Floorplan Transformation | [[paper](http://art-programmer.github.io/floorplan-transformation/paper.pdf)] [[project](https://github.com/art-programmer/FloorplanTransformation)]
 - 2017 | Parsing floor plan images | [[paper](https://ieeexplore.ieee.org/abstract/document/7986875)]
 
 
 ### Indoor Structure (3D)
 
-- 2019 | ICCV | Floor-SP: Inverse CAD for Floorplans by Sequential Room-wise Shortest Path | [[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Floor-SP_Inverse_CAD_for_Floorplans_by_Sequential_Room-Wise_Shortest_Path_ICCV_2019_paper.html)] [[code](https://github.com/woodfrog/floor-sp)][[project](http://jcchen.me/floor-sp/)]
+- 2019 | ICCV | Floor-SP: Inverse CAD for Floorplans by Sequential Room-wise Shortest Path | [[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Floor-SP_Inverse_CAD_for_Floorplans_by_Sequential_Room-Wise_Shortest_Path_ICCV_2019_paper.html)] [[project](http://jcchen.me/floor-sp/)] [[code](https://github.com/woodfrog/floor-sp)]
 - 2019 | ICCV | Floorplan-Jigsaw: Jointly Estimating Scene Layout and Aligning Partial Scans | [[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Lin_Floorplan-Jigsaw_Jointly_Estimating_Scene_Layout_and_Aligning_Partial_Scans_ICCV_2019_paper.html)]
 - 2016 | CVPR | 3D Semantic Parsing of Large-Scale Indoor Spaces | [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Armeni_3D_Semantic_Parsing_CVPR_2016_paper.html)] 
 - 2015 | ICCV | Structured Indoor Modeling | [[paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Ikehata_Structured_Indoor_Modeling_ICCV_2015_paper.html)] [[project](https://www2.cs.sfu.ca/~furukawa/sim/)]
+- 2015 | CVPR | Rent3D: Floor-Plan Priors for Monocular Layout Estimation | [[paper](http://www.cs.toronto.edu/~fidler/papers/rent3DCVPR15.pdf)] [[project](http://www.cs.toronto.edu/~fidler/projects/rent3D.html)]
