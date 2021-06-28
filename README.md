@@ -30,6 +30,8 @@ Other details and data will be updated in the future.
   - CubiCasa5K is a large-scale floorplan image dataset containing 5000 samples annotated into over 80 floorplan object categories. The dataset annotations are performed in a dense and versatile manner by using polygons for separating the different objects.
 - 2017 | ICCV | Raster-to-Vector: Revisiting Floorplan Transformation | [[paper](http://art-programmer.github.io/floorplan-transformation/paper.pdf)] [[project](https://github.com/art-programmer/FloorplanTransformation)]
 - 2017 | Parsing floor plan images | [[paper](https://ieeexplore.ieee.org/abstract/document/7986875)]
+- 2013 | Statistical segmentation and structural recognition for floor plan interpretation | [[paper](https://link.springer.com/article/10.1007/s10032-013-0215-2)]
+- [CVC-FP: Database for structural floor plan analysis](http://dag.cvc.uab.es/resources/floorplans/)
 
 
 ### Indoor Structure (3D)
