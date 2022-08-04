@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Caffe_android_lib</string>
+    <string name="info">注意：识别之前请先加载caffe模型，该模型由Places数据集训练得到。</string>
+</resources>

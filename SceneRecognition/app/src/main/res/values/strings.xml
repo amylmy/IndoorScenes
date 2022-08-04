@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SceneRecognition</string>
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="dialog_wait">Please wait</string>
+    <string name="dialog_scene_description">Run Convolutional Networks</string>
+</resources>

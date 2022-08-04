@@ -1,0 +1,1 @@
+include ':app', ':cnnlibs', ':caffe_android_lib'

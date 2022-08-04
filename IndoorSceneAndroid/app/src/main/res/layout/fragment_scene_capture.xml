@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_scene_preview_layout_id"
+    tools:context=".Fragment.SceneCaptureFragment">
+
+    <cn.edu.whu.indoorscene.View.CameraView
+        android:id="@+id/camera_view_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:keepScreenOn="true"/>
+    <Button
+        android:id="@+id/capture_pic_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture"
+        android:textColor="@android:color/white"
+        android:alpha="0.8"
+        android:layout_gravity="bottom|center"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="90dp"/>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IndoorScene</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="request_permission">This app needs permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="email_address">amylmy@whu.edu.cn</string>
+    <string name="scene_settings">Scene Settings</string>
+
+</resources>

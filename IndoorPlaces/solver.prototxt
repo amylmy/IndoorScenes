@@ -1,0 +1,17 @@
+net: "lmy/places160/train_val.prototxt"
+test_iter: 1000
+test_interval: 2000
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+# stepsize should also be lower, as we're closer to being done
+stepsize: 140000
+display: 20
+max_iter: 420000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 50000
+snapshot_prefix: "/media/lmy/Data/PlacesData/Dataset/places160/models"
+# uncomment the following to default to CPU mode solving
+solver_mode: GPU

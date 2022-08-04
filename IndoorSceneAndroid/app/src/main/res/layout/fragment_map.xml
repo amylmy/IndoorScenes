@@ -1,0 +1,235 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.whu.indoorscene.Fragment.MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <!--Show scene recognition results -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="5dp">
+        <TextView
+            android:id="@+id/result1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <TextView
+            android:id="@+id/result3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <TextView
+            android:id="@+id/result4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <TextView
+            android:id="@+id/result5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_blue_dark"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|start">
+
+        <ToggleButton
+            android:id="@+id/togglePosMode"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:checked="true"
+            android:alpha="0.7"
+            android:onClick="onTogglePosModeClicked"
+            android:text="ToggleButton"
+            android:textOff="Pos OFF"
+            android:textOn="Pos ON" />
+
+        <ToggleButton
+            android:id="@+id/toggleScan"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:checked="true"
+            android:alpha="0.7"
+            android:onClick="OnToggleScanClicked"
+            android:text="ToggleScanButton"
+            android:textOff="Scan OFF"
+            android:textOn="Scan ON" />
+
+        <TextView
+            android:id="@+id/textViewScanNum"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textSize="14sp"
+            android:text="0"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginLeft="14dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="188dp"
+        android:layout_gravity="end">
+        <ImageButton
+            app:srcCompat="@drawable/upstairs"
+            android:id="@+id/upstairs"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="5dp"/>
+        <ImageButton
+            app:srcCompat="@drawable/downstairs"
+            android:id="@+id/downstairs"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"/>
+        <ImageButton
+            android:layout_width="48dp"
+            app:srcCompat="@drawable/show"
+            android:id="@+id/chooseLabelBtn"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"/>
+        <ImageButton
+            android:layout_width="48dp"
+            app:srcCompat="@drawable/singlerecord"
+            android:id="@+id/scene_recognition_btn"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"/>
+        <ImageButton
+            android:layout_width="48dp"
+            android:src="@drawable/ic_my_location_black_24dp"
+            android:id="@+id/currentPositionBtn"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"/>
+    </LinearLayout>
+
+    <!--<ImageButton-->
+        <!--android:layout_width="48dp"-->
+        <!--app:srcCompat="@drawable/record"-->
+        <!--android:id="@+id/recordButton"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_marginLeft="45dp"-->
+        <!--android:layout_marginTop="0dp" />-->
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="top|start">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/up"
+            android:id="@+id/upButton"
+            android:scaleType="centerInside"
+            android:layout_marginStart="40dp"
+            android:layout_alignParentTop="true" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/left"
+            android:id="@+id/leftButton"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/upButton"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/down"
+            android:id="@+id/downButton"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/rightButton"
+            android:layout_toEndOf="@+id/leftButton" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:background="@drawable/record"
+            android:id="@+id/recordButton"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/upButton"
+            android:layout_toEndOf="@+id/leftButton" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:background="@drawable/right"
+            android:id="@+id/rightButton"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/upButton"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text=" "
+        android:layout_gravity="center"/>
+
+    <!--<ImageButton-->
+        <!--android:layout_width="48dp"-->
+        <!--app:srcCompat="@drawable/singlerecord"-->
+        <!--android:id="@+id/singleRecordButton"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_marginLeft="135dp"-->
+        <!--android:layout_marginTop="0dp" />-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="48dp"-->
+        <!--app:srcCompat="@drawable/show"-->
+        <!--android:id="@+id/showMarkerButton"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_marginLeft="45dp"-->
+        <!--android:layout_marginTop="80dp" />-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="48dp"-->
+        <!--app:srcCompat="@drawable/positioning"-->
+        <!--android:id="@+id/positioningButton"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_marginLeft="135dp"-->
+        <!--android:layout_marginTop="80dp" />-->
+
+</FrameLayout>

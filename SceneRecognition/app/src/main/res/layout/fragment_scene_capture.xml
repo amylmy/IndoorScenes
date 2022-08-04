@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scene_preview_layout_id"
+    tools:context=".SceneCaptureFragment">
+
+    <edu.whu.mengyun.scenerecognition.CameraView
+        android:id="@+id/camera_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent">
+
+        <Button
+            android:id="@+id/capture_pic_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="拍照"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="#5f70d1"/>
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"/>
+        <Button
+            android:id="@+id/choose_pic_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="选择"
+            android:textSize="20sp"
+            android:background="#5f70d1"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true">-->
+
+        <!---->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_marginBottom="10dp"/>-->
+
+    <!--</FrameLayout>-->
+
+
+
+</FrameLayout>

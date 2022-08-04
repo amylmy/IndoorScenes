@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    tools:context="edu.whu.mengyun.scenerecognition.MainActivity">
+
+    <Button
+        android:id="@+id/load_model_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="加载模型"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#5f70d1"/>
+    <Button
+        android:id="@+id/start_preview_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="拍照"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#5f70d1"/>
+    <Button
+        android:id="@+id/start_choose_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="选择照片"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#5f70d1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="20sp"
+        android:textColor="#5f70d1"/>
+</LinearLayout>
