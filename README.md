@@ -35,6 +35,7 @@ Other details and data will be updated in the future.
 
 
 ### Indoor Structure (3D)
+- 2021 | ICCV | 3D-FRONT: 3D Furnished Rooms With layOuts and semaNTics | [[paper](https://openaccess.thecvf.com/content/ICCV2021/html/Fu_3D-FRONT_3D_Furnished_Rooms_With_layOuts_and_semaNTics_ICCV_2021_paper.html)]
 - 2021 | CVPR | Plan2Scene: Converting floorplans to 3D scenes | [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Vidanapathirana_Plan2Scene_Converting_Floorplans_to_3D_Scenes_CVPR_2021_paper.pdf)] [[code](https://github.com/3dlg-hcvc/plan2scene)]
 - 2019 | ICCV | Floor-SP: Inverse CAD for Floorplans by Sequential Room-wise Shortest Path | [[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Floor-SP_Inverse_CAD_for_Floorplans_by_Sequential_Room-Wise_Shortest_Path_ICCV_2019_paper.html)] [[project](http://jcchen.me/floor-sp/)] [[code](https://github.com/woodfrog/floor-sp)]
 - 2019 | ICCV | Floorplan-Jigsaw: Jointly Estimating Scene Layout and Aligning Partial Scans | [[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Lin_Floorplan-Jigsaw_Jointly_Estimating_Scene_Layout_and_Aligning_Partial_Scans_ICCV_2019_paper.html)]
