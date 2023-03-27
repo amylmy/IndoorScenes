@@ -41,3 +41,6 @@ Other details and data will be updated in the future.
 - 2016 | CVPR | 3D Semantic Parsing of Large-Scale Indoor Spaces | [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Armeni_3D_Semantic_Parsing_CVPR_2016_paper.html)] 
 - 2015 | ICCV | Structured Indoor Modeling | [[paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Ikehata_Structured_Indoor_Modeling_ICCV_2015_paper.html)] [[project](https://www2.cs.sfu.ca/~furukawa/sim/)]
 - 2015 | CVPR | Rent3D: Floor-Plan Priors for Monocular Layout Estimation | [[paper](http://www.cs.toronto.edu/~fidler/papers/rent3DCVPR15.pdf)] [[project](http://www.cs.toronto.edu/~fidler/projects/rent3D.html)]
+
+### Scene Generation
+- 2023 | TPAMI | SceneHGC: Hierarchical Graph Networks for 3D Indoor Scene Generation with Fine-Grained Geometry | [[paper](https://arxiv.org/pdf/2302.10237.pdf)] [[project](http://geometrylearning.com/scenehgn/)]
